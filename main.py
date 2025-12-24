@@ -24,7 +24,7 @@ def policy():
                 "Effect": "Allow",
                 "Principal": {"AWS": "arn:aws:iam::765017559809:user/boto3"},
                 "Action": "s3:*",
-                "Resource": "arn:aws:s3:::savitha-labs-boto3-day2/*"
+                "Resource": "arn:aws:s3:::savitha-labs-boto3-day2"
             }
         ]
     }
